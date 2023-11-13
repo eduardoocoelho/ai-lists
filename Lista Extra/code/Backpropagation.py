@@ -42,8 +42,6 @@ def main():
     input_size = int(input("Número de entradas: "))
     operation_type = input("Tipo de operação (AND, OR, XOR): ").upper()
 
-    # ...
-
     # Criar conjunto de treinamento
     X_train = np.random.randint(2, size=(1000, input_size))
     
